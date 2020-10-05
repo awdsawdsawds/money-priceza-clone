@@ -1,0 +1,25 @@
+.pt-40px {
+  padding-top: 40px!important;
+}
+
+.py-40px {
+  padding-top: 40px!important;
+  padding-bottom: 40px!important;
+}
+
+.mt-20px {
+  margin-top: 20px!important;
+}
+
+.typo-size-lg {
+  font-size: 3.25em;
+}
+
+.pt-20px-xs {
+  /* // TODO: */
+}
+
+
+.txt-shadow-blur {
+  text-shadow: 1px 1px 18px #000;
+}

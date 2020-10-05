@@ -1,0 +1,77 @@
+.home-contrainer {
+  padding-top: 40px;
+  overflow-x: hidden;
+  background: #ecf0f1;
+}
+
+.home-breadcrumb-background {
+  padding: 100px 0 30px 0;
+  background: url(/breadcrumb-bg.jpg) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  line-height: 1.2;
+  position: relative;
+  height: 680px;
+  color: white;
+}
+
+.home-breadcrumb-background::before {
+  position: absolute;
+  background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.9) 100%);
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+}
+
+.home-text-title-1 {
+  margin-top: 20px;
+  font-size: 3.25em;
+}
+.home-prominent-points {
+  padding: 40px 0 40px;
+  background: #fff;
+}
+
+.home-banner-1 {
+  max-width: 100%;
+  height: auto;
+}
+
+.home-section-title {
+  font-size: 24px;
+  line-height: 1.25;
+  margin: 0 0 40px;
+}
+
+.home-section-title h2 {
+  text-transform: lowercase;
+  font-size: 1.76em;
+  line-height: 1;
+  margin: 0;
+}
+
+.home-car-ins-background {
+  padding: 120px 0;
+  background: url(/car-insure-total-bg.jpg) center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  line-height: 1.2;
+  position: relative;
+  height: 680px;
+  color: white;
+}
+
+.home-car-ins-background::before {
+  position: absolute;
+  background: rgba(0,0,0,.5);
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+}
+
