@@ -1,0 +1,12 @@
+.navbar-menu {
+  display: flex;
+  flex-direction: row;
+  color: #ffffff;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navbar-menu:hover {
+  color: #ffa400 !important;
+  text-decoration: none;
+}

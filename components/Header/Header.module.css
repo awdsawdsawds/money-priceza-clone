@@ -1,0 +1,20 @@
+.navbar-list-menu {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.navbar1 {
+  background-color: rgba(29,37,45,.92);
+}
+
+.navbar1-logo {
+  width: 23%;
+}
+
+.navbar2 {
+  background-color: #131e29;
+}
+
