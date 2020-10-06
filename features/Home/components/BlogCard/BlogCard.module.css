@@ -1,0 +1,27 @@
+.blog-img-top {
+  height: 170px;
+}
+
+.blog-body {
+  font-size: 14px;
+  font-weight: 700;
+  overflow: hidden;
+  height: 150px;
+}
+
+.blog-footer {
+  height: 40px;
+}
+
+.blog-footer img {
+  width: 30px;
+  border-radius: 3px;
+  /* margin-left: 5px; */
+}
+
+.blog-footer span {
+  color: #ffa400;
+  font-weight: 700;
+  font-size: 13px;
+  white-space: nowrap;
+}
