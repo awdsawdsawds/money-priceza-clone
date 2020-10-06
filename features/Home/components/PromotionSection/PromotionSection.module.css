@@ -1,0 +1,12 @@
+.home-section-title {
+  font-size: 24px;
+  line-height: 1.25;
+  margin: 0 0 40px;
+}
+
+.home-section-title h2 {
+  text-transform: lowercase;
+  font-size: 1.76em;
+  line-height: 1;
+  margin: 0;
+}
