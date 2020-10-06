@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+
 import styles from './BlogCard.module.css'
 
 export default function BlogCard({ blog }) {
@@ -29,4 +31,18 @@ export default function BlogCard({ blog }) {
       </div>
     </div>
   )
+}
+
+BlogCard.propTypes = {
+  blog: PropTypes.shape({
+    imgPath: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    desc: PropTypes.string.isRequired,
+    creator: PropTypes.shape({
+      name: PropTypes.string.isRequired,
+      avatar: PropTypes.string.isRequired,
+    }),
+    createdAtDisplay: PropTypes.string.isRequired,
+
+  }).isRequired,
 }
