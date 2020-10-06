@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 import { useState } from 'react'
 
 import styles from './DestinationCard.module.css'
@@ -19,8 +20,8 @@ export default function DestinationCard({ destination }) {
         <img
           className={styles['destination-image']}
           style={{ transform: imgScale }}
-          src={destination.imagePath}
-          alt={destination.title}
+          src={destination.imgPath}
+          alt={destination.firstTitle}
         />
         <div className={styles['destination-header']}>
           <span>
@@ -39,4 +40,13 @@ export default function DestinationCard({ destination }) {
       </span>
     </div>
   )
+}
+
+DestinationCard.propTypes = {
+  destination: PropTypes.shape({
+    imgPath: PropTypes.string.isRequired,
+    firstTitle: PropTypes.string.isRequired,
+    secondTitle: PropTypes.string.isRequired,
+    desc: PropTypes.string.isRequired,
+  }).isRequired,
 }

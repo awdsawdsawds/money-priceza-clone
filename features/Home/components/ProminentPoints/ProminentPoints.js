@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 import Icon from '@mdi/react'
 
 export default function ProminentPoints({ icon, title, desc }) {
@@ -14,4 +15,10 @@ export default function ProminentPoints({ icon, title, desc }) {
       </div>
     </div>
   )
+}
+
+ProminentPoints.propTypes = {
+  icon: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  desc: PropTypes.string.isRequired,
 }

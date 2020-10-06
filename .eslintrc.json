@@ -34,6 +34,8 @@
     "react/react-in-jsx-scope": "off",
     "semi": "off",
     "jsx-a11y/anchor-is-valid": "warn",
-    "import/prefer-default-export": "warn"
+    "import/prefer-default-export": "warn",
+    "react/jsx-props-no-spreading": "warn",
+    "react/forbid-prop-types": "warn"
   }
 }

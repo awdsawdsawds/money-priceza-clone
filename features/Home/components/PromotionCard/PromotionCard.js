@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+
 import styles from './PromotionCard.module.css'
 
 export default function PromotionCard({ promotion }) {
@@ -29,4 +31,16 @@ export default function PromotionCard({ promotion }) {
       </div>
     </div>
   )
+}
+
+PromotionCard.propTypes = {
+  promotion: PropTypes.shape({
+    imgPath: PropTypes.string.isRequired,
+    desc: PropTypes.string.isRequired,
+    creator: PropTypes.shape({
+      type: PropTypes.oneOf(['image', 'text']).isRequired,
+      data: PropTypes.string.isRequired,
+    }).isRequired,
+    createDateForDisplay: PropTypes.string.isRequired,
+  }).isRequired,
 }
