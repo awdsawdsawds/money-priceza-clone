@@ -1,6 +1,4 @@
-import Link from 'next/link'
-
-import { firstMenus, secondLeftMenus } from './data/menus'
+import { firstMenus, secondLeftMenus } from './data'
 import NavMenu from './NavMenu'
 import styles from './Header.module.css'
 

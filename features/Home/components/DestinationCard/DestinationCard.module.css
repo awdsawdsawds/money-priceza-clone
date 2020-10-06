@@ -1,0 +1,62 @@
+.destination-card {
+  height: 270px;
+}
+
+.destination-card:hover {
+  /* max-width: 50%; */
+  /* transform: scale(1.5); */
+  background-color: blue;
+}
+
+.destination-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background: linear-gradient(to top,rgba(0,0,0,.65) 0,rgba(0,0,0,0) 100%);
+}
+
+.destination-image {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  transition: all .4s ease;
+}
+
+.destination-image:hover {
+  transform: scale(1.5);
+}
+
+.destination-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 200;
+  text-align: center;
+}
+
+.destination-header span {
+  background: #fa9623;
+  color: #fff;
+  margin: 0;
+  letter-spacing: 1px;
+  line-height: 1;
+  padding: 15px 20px 13px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.destination-body {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 200;
+  text-align: center;
+  margin: 20px;
+  color: #ffffff;
+}

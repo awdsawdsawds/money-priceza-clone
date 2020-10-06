@@ -20,7 +20,7 @@ export const firstMenus = [
 ]
 
 export const secondLeftMenus = [
-  { name: 'Priceza Money', link: '', icon: mdiCreditCardMultiple, },
+  { name: 'Priceza Money', link: '', icon: mdiCreditCardMultiple },
   { name: 'Priceza.com', link: '', icon: mdiTagHeart },
   { name: 'คูปองและโปรโมชั่น', link: '', icon: mdiCashMultiple },
   { name: 'บทความ', link: '', icon: mdiTextBoxMultiple },

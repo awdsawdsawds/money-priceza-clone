@@ -1,0 +1,28 @@
+.promo-img-top {
+  height: 170px;
+}
+
+.promo-body {
+  font-size: 14px;
+  font-weight: 700;
+  overflow: hidden;
+  height: 90px;
+}
+
+.promo-footer {
+  height: 30px;
+}
+
+.promo-footer img {
+  width: 120px;
+  border-radius: 3px;
+  /* margin-left: 5px; */
+}
+
+.promo-footer span {
+  color: #ffa400;
+  font-weight: 700;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
